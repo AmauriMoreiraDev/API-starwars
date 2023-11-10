@@ -45,6 +45,6 @@ app.post('/', async (req, res) => {
 })
 
 app.listen(port, () => {
-      mongoose.connect('mongodb+srv://amauri56727094:gAV6fpXUuggbntR9@starwarsapi.m1eugek.mongodb.net/?retryWrites=true&w=majority')
+      mongoose.connect('mongodb+srv://amauri56727094:"PASSWORD"/?retryWrites=true&w=majority')
       console.log('App running sucess!')
 })
